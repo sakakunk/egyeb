@@ -1,0 +1,3 @@
+teszt1.rb :: OK :: OK :: OK :: OK
+teszt2.rb :: OK :: WRONG :: OK :: WRONG
+teszt3.rb :: OK :: OK :: OK :: OK

@@ -1,0 +1,132 @@
+body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+h1 {
+	font-size: 220%;
+}
+h2 {
+	font-size: 200%;
+}
+h3 {
+	font-size: 170%;
+	border-bottom: 5px solid #eeeeee;
+}
+h4 {
+	font-size: 130%;
+}
+h5 {
+	font-size: 120%;
+}
+h6 {
+
+	font-size: 110%;
+}
+.title{
+	margin-left: auto;
+    margin-right: auto;
+    /*text-align: center;*/
+	
+}
+
+.main {
+	margin-left: auto;
+    margin-right: auto;
+	
+	text-align: center;
+	border: 2px solid #000000;
+	width: 50%;
+	height: 600px;
+	border-radius: 25px;
+	/*background: #58FA58;*/
+	background: #DADEDF;
+	padding-top: 30px;
+}
+
+body {
+    background-color: #b0c4de;
+	/*background-color: #BAFFC9;*/
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.c2{
+	margin-left: auto;
+	 margin-right: auto;
+	 /* width: 35%; */
+	 
+	 
+	 /*background-color: red;*/
+	 /*background-color: #FA2D34; */
+	 border: 2px solid #000000;
+	 border-radius: 2px;
+	 
+	 
+}
+/*.c2{
+	background-color: green;
+	background-color: #6FFE68;
+	text-align: left;
+	border-right: 2px solid #000000;
+	
+}*/
+
+.gtable {
+    margin-left: auto;
+    margin-right: auto;		
+}
+.tab1, .tab1 tr, .tab1 td {
+	border: 1px solid black;
+	background-color: #FFFFC1;
+	/*background-color: #FEFFFF;*/
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+.display {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 80%;
+	height: 80px;
+	background: #6C9458;
+	font-size: 50px;
+	padding-right: 5px;
+}
+.btn {
+	border: 2px solid black;
+	background: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 45px;
+}
+.link  {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-radius: 3px;
+	width: 20%;
+	background: #6C9458;
+	/*a:link: black;*/
+
+}
+.link a:link {
+    color: #000000;
+    text-decoration: none;
+
+	
+}
+
+.link a:visited {
+    color: #000000;
+	text-decoration: none;
+	
+}

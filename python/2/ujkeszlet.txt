@@ -1,0 +1,8 @@
+Szerző	Cím	oldalszám	Kiadás éve	Kiadó	állapot	ár	raktári jel	megjegyzés	téma
+	Folyékony sziget – Ír kocsmakultúrális antológia	148	1999	Quóta	kitűnő	760 Ft	ü2		világirodalom
+Makai György	Portugál Afrika – a rabszolgák földje	152	1961	Kossuth	jó	1200 Ft	ü3		földrajz
+	Leopardi Giacomo	28	1998	Glória	kitűnő	405 Ft	ü9		ismeretterjesztő
+Carr, Norman	Elefántok völgye	120	1985	Gondolat	kitűnő	380 Ft	ü35		földrajz
+Hocopán Sándor	Méhkeréki szólások és közmondások	280	1973	Békés Megyei Tanács VB.	kitűnő	900 Ft	ü47		néprajz
+	„Olaszország és az 56-os magyar forradalom”	174	1996	Magyarországi Olasz Kultúrintézet	kitűnő	990 Ft	ü49		magyar történelem
+Dickens, Charles	Copperdield David	344		Christensen és Társa, Gutenberg	jó	720 Ft	ü60	egészvászon kötésben, szép példány	világirodalom

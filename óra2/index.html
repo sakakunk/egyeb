@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>2. gyakorlat - Webfejlesztés 2.</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link href="css/sablon.css" rel="stylesheet" media="screen">
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<script type="application/javascript" src="gyak.js"></script>
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a class="brand" href="#">Webfejlesztés 2.</a>
+				</div>
+			</div>
+		</div>
+		
+	    <div class="container-fluid">
+			<div class="row-fluid">
+				
+				<div class="span3">
+					<div class="well sidebar-nav">
+						<ul class="nav nav-list">
+							<li><a href="#feladat1">1. feladat</a></li>
+							<li><a href="#feladat2">2. feladat</a></li>
+						</ul>
+					</div><!--/.well -->
+				</div><!--/span-->
+				
+				<div class="span9">
+					<div class="well">
+						<h1>2. gyakorlat <small>Webfejlesztés 2.</small></h1>
+					</div>
+					
+					<h2 id="feladatok">Feladatok</h2>
+					
+					<h3 id="feladat2">2. feladat</h3>
+					<p>Feladat szövege: Írj egy kör kerületét kiszámoló programot!</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						Sugár:
+						<input type="text" id="txtSugar">
+						<input type="button" value="Szamol" id="btnKer">
+						<br>
+						Kerület:
+						<span id="spanKer">
+						</span>
+					</div>
+
+					<h3 id="feladat2">3. feladat</h3>
+					<p>Feladat szövege: Egy szöveges beviteli mezőben legyen lehetőség megadni egy interneten elérhető kép URL-jét. Egy mellette lévő gombra kattintva jelenítsd meg a képet a dokumentumban!</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						Kép URL:
+						<input type="text" id="kepurl">
+						<input type="button" id="btnurl" value="Mehet!">
+						<img id="imgKep">
+					</div>
+					
+					<h3 id="feladat3">4/a. feladat</h3>
+					<p>Feladat szövege: Adott két szöveges beviteli mező és köztük egy gomb. A gomb lenyomására másold át az egyik szöveges beviteli mező tartalmát a másikba!</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						Masolandó szöveg:
+						<input type="text" id="szoveg1">
+						<input type="button" id="btnCopy" value="Copy!">
+						<input type="text" id="szoveg2">
+					</div>
+					
+					
+					<h3 id="feladat4">5/a. feladat</h3>
+					<p>Feladat szövege: Készíts egy számlálót komponenst! A számláló egy csak olvasható szöveges beviteli mezőből és két gombból (plusz, mínusz) áll! A gombok meg nyomásával a szöveges beviteli mezőben lévő szám eggyel nő vagy csökken.</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						Vmi cucc szám kéne ide:
+						<input type="text" id="szamolas">
+						<input type="button" id="plus" value="+">
+						<input type="button" id="minus" value="-">
+						
+					</div>
+					
+					<h3 id="feladat4">9/a. feladat</h3>
+					<p>Feladat szövege:Adott egy könyvtári nyilvántartás. Egy könyvről a következő adatokat tároljuk... Felületen kérj be egy évszámot, és listázd ki az abban az évben megjelent könyvcímeket!</p>
+					<div class="megoldas well">
+						<h4>Megoldas</h4>
+						Adj meg egy évszámot:
+						<input type="text" id="evszam">
+						<input type="button" id="btnEvszam" value="Keress!">
+						<span id="message"></span>
+						<ul id="ulCimek"></ul>
+						
+					</div>
+
+					
+
+				</div><!--/span-->
+				
+			</div><!--/row-->
+		</div>
+	</body>
+</html>

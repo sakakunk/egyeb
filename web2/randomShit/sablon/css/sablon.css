@@ -1,0 +1,150 @@
+body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+h1 {
+	font-size: 220%;
+}
+h2 {
+	font-size: 200%;
+}
+h3 {
+	font-size: 170%;
+	border-bottom: 5px solid #eeeeee;
+}
+h4 {
+	font-size: 130%;
+}
+h5 {
+	font-size: 120%;
+}
+h6 {
+
+	font-size: 110%;
+}
+.title{
+	margin-left: auto;
+    margin-right: auto;
+    /*text-align: center;*/
+	
+}
+
+.main {
+	margin-left: auto;
+    margin-right: auto;
+	
+	text-align: center;
+	border: 2px solid #000000;
+	width: 50%;
+	height: 600px;
+	border-radius: 25px;
+	/*background: #58FA58;*/
+	background: #DADEDF;
+	padding-top: 30px;
+}
+
+body {
+    background-color: #b0c4de;
+	/*background-color: #BAFFC9;*/
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.c2{
+	margin-left: auto;
+	 margin-right: auto;
+	 /* width: 35%; */
+	 
+	 
+	 /*background-color: red;*/
+	 /*background-color: #FA2D34; */
+	 border: 2px solid #000000;
+	 border-radius: 2px;
+	 
+	 
+}
+/*.c2{
+	background-color: green;
+	background-color: #6FFE68;
+	text-align: left;
+	border-right: 2px solid #000000;
+	
+}*/
+
+.gtable {
+    margin-left: auto;
+    margin-right: auto;		
+}
+.tab1, .tab1 tr, .tab1 td {
+	border: 1px solid black;
+	background-color: #FFFFC1;
+	/*background-color: #FEFFFF;*/
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+.gihi {
+    position: fixed;
+    top: 1px;
+    right: 5px;
+    color: red;
+}
+.jobb{
+	background: #FFFFC1;
+	position: absolute;
+	top: 200px;
+	right: 25px;
+	font-size: 25px;
+	border: 2px solid black;
+	height: 30px;
+	border-radius: 5px;
+	padding-top: 2px;
+}
+
+.bal {
+	background: #FFFFC1;
+	position: absolute;
+	top: 200px;
+	left: 25px;
+	font-size: 25px;
+	border: 2px solid black;
+	height: 30px;
+	border-radius: 5px;
+	padding-top: 2px;
+}
+
+.kis {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #FFFFC1;
+	position: absolute;
+	top: 200px;
+	left: 125px;
+	font-size: 25px;
+	border: 2px solid black;
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+	padding-top: 2px;
+}
+
+.nagy {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: #FFFFC1;
+	position: absolute;
+	top: 200px;
+	left: 165px;
+	font-size: 25px;
+	border: 2px solid black;
+	height: 30px;
+	width: 30px;
+	border-radius: 5px;
+	padding-top: 2px;
+}

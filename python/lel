@@ -1,0 +1,11 @@
+#:: A 23
+#:: B 5
+#:: C 55
+
+x = A + 45 - B
+y = B * x + A
+
+z = A B C
+
+print x
+print y

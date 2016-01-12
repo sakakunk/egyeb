@@ -1,0 +1,16 @@
+﻿Build started 2014.11.28. 11:36:10.
+     1>Project "C:\Users\Adam\Desktop\SzGrafBead\02_Indices\02_Indices.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MyApp.cpp
+         MyApp.cpp
+     1>c:\users\adam\desktop\szgrafbead\02_indices\myapp.cpp(192): warning C4244: 'initializing' : conversion from 'float' to 'GLuint', possible loss of data
+     1>c:\users\adam\desktop\szgrafbead\02_indices\myapp.cpp(255): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Adam\Desktop\SzGrafBead\Debug\02_Indices.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib glew32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Adam\Desktop\SzGrafBead\Debug\02_Indices.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Adam\Desktop\SzGrafBead\Debug\02_Indices.lib" /MACHINE:X86 Debug\main.obj
+         Debug\MyApp.obj
+         02_Indices.vcxproj -> C:\Users\Adam\Desktop\SzGrafBead\Debug\02_Indices.exe
+     1>Done Building Project "C:\Users\Adam\Desktop\SzGrafBead\02_Indices\02_Indices.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.67

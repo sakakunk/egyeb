@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1337083454 source:c:\documents and settings\tibor\dokumentumok\oktatás\programozás\elõadások12\11\összefut\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

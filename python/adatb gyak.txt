@@ -1,0 +1,13 @@
+select hajónév from "HAJÓK" where FELAVATVA < 1921;
+select osztály, ország from hajóosztályok where kaliber>=16;
+select hajónév from kimenetelek where CSATANÉV = 'Denmark Strait' and eredmény ='elsüllyedt';
+select hajónév from kimenetelek union select hajónév from Hajók;
+select ország from hajóosztályok where típus='bb' INTERSECT select ország from hajóosztályok where típus='bc';
+select hajónév, ország from "HAJÓOSZTÁLYOK" natural join "HAJÓK";
+select hajónév, vízkiszorítás, ágyúkszáma from hajóosztályok natural join hajók natural join kimenetelek where csatanév = 'Guadalcanal';
+select hajónév from hajók where felavatva < 1943 union select hajónév from kimenetelek natural join csaták where substr(dátum, -2, 2) < 43;
+select csatanév from kimenetelek minus select csatanév from (select * from (select csatanév from kimenetelek), (select eredmény from kimenetelek) minus select csatanév, eredmény from kimenetelek);
+select distinct h1.felavatva from hajók h1, hajók h2,hajók h3 where h1.felavatva = h2.felavatva and h1.felavatva = h3.felavatva and h1.hajónév!=h2.hajónév and h1.hajónév!=h3.hajónév and h2.hajónév!=h3.hajónév;
+select hajónév from hajók natural join hajóosztályok where felavatva>1921 and vízkiszorítás >35000;
+select x1.hajónév from (select * from kimenetelek natural join csaták )x1, (select * from kimenetelek natural join csaták) x2  where  x1.eredmény='sérült' and x1.hajónév = x2.hajónév and x1.dátum < x2.dátum;
+select osztály from hajók minus(select x1.osztály from (select * from hajók natural join hajóosztályok) x1, (select * from hajók natural join hajóosztályok) x2 where x1.osztály = x2.osztály and x1.hajónév != x2.hajónév );
